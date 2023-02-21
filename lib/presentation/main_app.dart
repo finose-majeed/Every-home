@@ -13,7 +13,7 @@ class MainApp extends StatelessWidget {
         designSize: const Size(428, 926),
         builder: (context, _) {
           return MaterialApp(
-            title: 'Every home',
+            title: 'Every',
             debugShowCheckedModeBanner: false,
             theme: LightTheme().themeLight,
             home: const SplashScreen(),
