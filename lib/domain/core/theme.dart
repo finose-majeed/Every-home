@@ -22,6 +22,10 @@ class LightTheme {
     checkboxTheme: CheckboxThemeData(
       fillColor: MaterialStateProperty.all(Colors.green),
     ),
+    buttonTheme: ThemeData.light().buttonTheme.copyWith(
+          shape: const StadiumBorder(),
+          buttonColor: LigthColor().buttonColorYellow,
+        ),
     textTheme: ThemeData.light().textTheme.copyWith(
           displayLarge: const TextStyle(
             // color: LigthColor().iconColor,
@@ -109,6 +113,7 @@ class LigthColor {
   final Color bgColorWhite = const Color(0xFFFFFFFF);
   final Color bgColorGrey = const Color(0xFF252C35);
   final Color buttonColorYellow = const Color(0xFFFFA610);
+  final Color buttonTextColorWhite = const Color(0xffffffff);
   final Color buttonColorGrey = const Color(0xFF252C35);
   final Color offWhite = const Color(0xFFEEEEEE);
   final Color appBarColor = const Color(0xFF22262B);
